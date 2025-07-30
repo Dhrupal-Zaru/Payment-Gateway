@@ -1,0 +1,57 @@
+* {
+  margin: 0 ;
+  padding: 2rem;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items{
+  padding: 2rem;
+}
+
+.item{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  border-bottom: 1px solid rgb(80, 78, 78);
+  border-top: 1px solid rgb(80, 78, 78);
+}
+
+.item img{
+  height: 100px;
+  width: 100px;
+}
+
+.app button{
+  padding: 8px 12px;
+  width: 100px;
+  background-color: rgb(79, 114, 170);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.success{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+}
+.success div{
+  background-color: rgb(230, 241, 230);
+}
+.cancel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(223, 43, 15);
+}
+.cancel div{
+  background-color: rgb(231, 201, 190);
+}
